@@ -1,0 +1,22 @@
+.app-add-form {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.app-add-form > h3 {
+    font-size: 20px;
+}
+
+
+.add-form {
+    margin-top: 20px;
+}
+
+.add-form input {
+    width: 350px;
+    margin-right: 20px;
+}
+

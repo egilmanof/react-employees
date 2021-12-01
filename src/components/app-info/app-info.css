@@ -1,0 +1,22 @@
+.app_info {
+    padding: 25px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    text-align: center;
+}
+
+.app_info > h1 {
+    font-size: 35px;
+}
+
+.app_info_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.app_info_list > h2 {
+    font-size: 20px;
+}
