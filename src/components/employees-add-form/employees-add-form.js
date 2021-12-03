@@ -19,8 +19,9 @@ class EmployeesAddForm extends Component {
     }
 
     onSubmit = (e) => {
+        const{name, salary} = this.state;
         e.preventDefault();
-        if (this.state.name !== '') {
+        if (name !== '' && isNaN(name) && salary !== '') {
             this.props.onAdd(this.state.name, this.state.salary);
             this.setState({
                 name: '',
@@ -28,8 +29,6 @@ class EmployeesAddForm extends Component {
             })
         }
     }
-
-
 
 
     render() {
